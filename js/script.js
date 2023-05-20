@@ -112,7 +112,7 @@ function fetchGithubRepositories() {
               `;
                     });
                     repositories.innerHTML = `
-              <h1 class="github__headline">most interacted repositories</h1>
+              <h1 class="github__headline">repositories</h1>
               <div class="github__wrapper">
                 ${repositoriesData.slice(0, 6).join("")}
               </div>
