@@ -72,7 +72,7 @@ function fetchGithubRepositories() {
                 if (repositoryData.message === "Not Found") {
                     headlineRepositories.textContent = "No repositories found.";
                     repositories.innerHTML = `
-              <h1 class="github__headline">most interacted repositories</h1>
+              <h1 class="github__headline">repositories</h1>
               <div class="github__wrapper">
                 <div class="github__repository">
                   <h3 class="github__repositoryName">User not found.</h3>
