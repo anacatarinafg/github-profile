@@ -146,6 +146,12 @@ main {
   flex-direction: column;
   gap: 20px;
 }
+.github__profile .github__image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
 .github__profileName {
   font-size: 22px;
 }
