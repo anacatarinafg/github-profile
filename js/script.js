@@ -106,7 +106,7 @@ function fetchGithubRepositories() {
                         content_copy
                       </span>
                     </span>
-                    <span>${item.size}</span>
+                    <span>${item.size}mb</span>
                   </div>
                 </div>
               `;
