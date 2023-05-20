@@ -189,29 +189,18 @@ body.darkMode .github__repository {
 
 @media (max-width: 768px) {
   body {
-    width: 100%;
     height: 100%;
     overflow: scroll;
-    font-family: "Bellefair", serif;
-    color: var(--ff-black-color);
-    transition: all 0.15s ease-in;
   }
   .navbar__image {
     display: none;
   }
   main {
-    width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
   }
   .github {
-    width: 95%;
     gap: 20px;
     height: auto;
-    display: flex;
     flex-direction: column;
   }
   .github__repositories .github__headline {
@@ -219,23 +208,10 @@ body.darkMode .github__repository {
     text-align: center;
   }
   .github__wrapper {
-    width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
   }
   .search {
-    width: 95%;
-    border-bottom: 1px solid var(--ff-black-color);
-    padding: 1em 0;
-    margin-bottom: 20px;
     position: relative;
-    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
-  }
-  .search .search__input {
-    width: 100%;
-    font-size: 52px;
-    font-family: "Archivo", sans-serif;
-    text-transform: lowercase;
   }
 }/*# sourceMappingURL=style.css.map */
