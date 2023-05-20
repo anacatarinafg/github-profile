@@ -1,5 +1,8 @@
 
 const toggleTheme = document.querySelector(".navbar__button");
+const githubImage = document.querySelector(".github_image");
+const githubProfileName = document.querySelector(".github__profileName");
+
 // Add dark theme to the webpage
 toggleTheme.addEventListener("click", (event) => {
     const body = document.querySelector("body");
@@ -11,3 +14,6 @@ toggleTheme.addEventListener("click", (event) => {
         event.target.innerHTML = '<span class="material-symbols-outlined navbar__toggle">light_mode</span>'
     }
 })
+
+
+// Fetch github API
